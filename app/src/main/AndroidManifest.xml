@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pr_bg2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PR_BG2">
+        <activity
+            android:name=".nav_contact_us"
+            android:exported="false" />
+        <activity
+            android:name=".nav_about_us"
+            android:exported="false" />
+        <activity
+            android:name=".nav_view_profile"
+            android:exported="false" />
+        <activity
+            android:name=".nav_edit_profile"
+            android:exported="false" />
+        <activity
+            android:name=".Models.AnswerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReplyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YourQuestions"
+            android:exported="false" />
+        <activity
+            android:name=".doubt_ask"
+            android:exported="false" />
+        <activity
+            android:name=".fragment2"
+            android:exported="false" />
+        <activity
+            android:name=".std2_Answers"
+            android:exported="false" />
+        <activity
+            android:name=".std1_Answers"
+            android:exported="false" />
+        <activity
+            android:name=".parental_control_grade"
+            android:exported="false" />
+        <activity
+            android:name=".parental_control_line"
+            android:exported="false" />
+        <activity
+            android:name=".parental_control_graph"
+            android:exported="false" />
+        <activity
+            android:name=".parental_control_home"
+            android:exported="false" />
+        <activity
+            android:name=".std2_test_home_screen"
+            android:exported="false" />
+        <activity
+            android:name=".std2_test_mcq_screen"
+            android:exported="false" />
+        <activity
+            android:name=".std12_test_result"
+            android:exported="false" />
+        <activity
+            android:name=".std11_test_result"
+            android:exported="false" />
+        <activity
+            android:name=".std10_test_result"
+            android:exported="false" />
+        <activity
+            android:name=".std9_test_result"
+            android:exported="false" />
+        <activity
+            android:name=".std8_test_result"
+            android:exported="false" />
+        <activity
+            android:name=".std7_test_result"
+            android:exported="false" />
+        <activity
+            android:name=".std6_test_result"
+            android:exported="false" />
+        <activity
+            android:name=".std5_test_result"
+            android:exported="false" />
+        <activity
+            android:name=".std4_test_result"
+            android:exported="false" />
+        <activity
+            android:name=".std3_test_result"
+            android:exported="false" />
+        <activity
+            android:name=".std2_test_result"
+            android:exported="false" />
+        <activity
+            android:name=".std1_test_result"
+            android:exported="false" />
+        <activity
+            android:name=".standards_test_result"
+            android:exported="false" />
+        <activity
+            android:name=".std1_test_mcq_screen"
+            android:exported="false" />
+        <activity
+            android:name=".std1_test_home_screen"
+            android:exported="false" />
+        <activity
+            android:name=".gamification_std1_sub1_maths"
+            android:exported="false" />
+        <activity
+            android:name=".gamification_std1_sub1_screen"
+            android:exported="false" />
+        <activity
+            android:name=".std1_sub1_videos_maths"
+            android:exported="false" />
+        <activity
+            android:name=".std2_sub1_ebooks_maths_pdfs"
+            android:exported="false" />
+        <activity
+            android:name=".std2_sub1_ebooks_hindi_pdfs"
+            android:exported="false" />
+        <activity
+            android:name=".std2_sub1_ebooks_english_pdfs"
+            android:exported="false" />
+        <activity
+            android:name=".std12_sub1_ebooks"
+            android:exported="false" />
+        <activity
+            android:name=".std11_sub1_ebooks"
+            android:exported="false" />
+        <activity
+            android:name=".std2_sub1_ebooks"
+            android:exported="false" />
+        <activity
+            android:name=".std10_sub1_ebooks"
+            android:exported="false" />
+        <activity
+            android:name=".std12_sub1"
+            android:exported="false" />
+        <activity
+            android:name=".std11_sub1"
+            android:exported="false" />
+        <activity
+            android:name=".std10_sub1"
+            android:exported="false" />
+        <activity
+            android:name=".std9_sub1"
+            android:exported="false" />
+        <activity
+            android:name=".std8_sub1"
+            android:exported="false" />
+        <activity
+            android:name=".std7_sub1"
+            android:exported="false" />
+        <activity
+            android:name=".std6_sub1"
+            android:exported="false" />
+        <activity
+            android:name=".std5_sub1"
+            android:exported="false" />
+        <activity
+            android:name=".std4_sub1"
+            android:exported="false" />
+        <activity
+            android:name=".std3_sub1"
+            android:exported="false" />
+        <activity
+            android:name=".std2_sub1"
+            android:exported="false" />
+        <activity
+            android:name=".std1_maths2_pdf"
+            android:exported="false" />
+        <activity
+            android:name=".std1_maths1_pdf"
+            android:exported="false" />
+        <activity
+            android:name=".std1_sub1_ebooks_maths_pdfs"
+            android:exported="false" />
+        <activity
+            android:name=".std1_english2_pdf"
+            android:exported="false" />
+        <activity
+            android:name=".std1_sub1_ebooks_english_pdfs"
+            android:exported="false" />
+        <activity
+            android:name=".std1_english1_pdf"
+            android:exported="false" />
+        <activity
+            android:name=".std1_sub1_ebooks"
+            android:exported="false" />
+        <activity
+            android:name=".std1_sub1_ebooks_hindi_pdfs"
+            android:exported="false" />
+        <activity
+            android:name=".std1_sub1_videos"
+            android:exported="false" />
+        <activity
+            android:name=".std1_hindi_pdf"
+            android:exported="false" />
+        <activity
+            android:name=".gamification_screen"
+            android:exported="false" />
+        <activity
+            android:name=".std1_sub1"
+            android:exported="false" />
+        <activity
+            android:name=".verify_o_t_p"
+            android:exported="false" />
+        <activity
+            android:name=".send_o_t_p"
+            android:exported="false" />
+        <activity
+            android:name=".forgot_password_screen"
+            android:exported="false" />
+        <activity
+            android:name=".all_standards_screen"
+            android:exported="false" />
+        <activity
+            android:name=".home_screen"
+            android:exported="false" />
+        <activity
+            android:name=".create_account"
+            android:exported="false" />
+        <activity
+            android:name=".welcome_screen"
+            android:exported="false" />
+        <activity
+            android:name=".login_screen"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

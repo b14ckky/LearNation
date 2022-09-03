@@ -1,0 +1,298 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="150dp"
+      android:id="@+id/const_std"
+      android:background="@drawable/semicircle"
+      tools:context=".MainActivity">
+    <Button
+        android:id="@+id/back_bt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/back_bt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="413dp"
+        android:layout_height="152dp"
+        android:transitionName="back_bt"
+        android:src="@drawable/l2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+  <ScrollView
+      android:id="@+id/ScrollView01"
+      android:layout_width="match_parent"
+      android:layout_height="1264dp"
+      android:layout_below="@id/const_std"
+      android:layout_marginTop="32dp"
+      android:orientation="vertical"
+      tools:ignore="SpeakableTextPresentCheck">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+      <Button
+          android:id="@+id/std_1_bt"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+
+          android:layout_marginStart="10dp"
+          android:layout_marginBottom="40dp"
+
+          android:background="@drawable/stds"
+          android:text="Standard 1"
+          android:textColor="#FFFFFF"
+          android:textSize="18sp"
+          app:layout_constraintBottom_toTopOf="@+id/image2"
+          app:layout_constraintEnd_toStartOf="@+id/image1"
+          app:layout_constraintHorizontal_bias="0.155"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.465" />
+
+      <ImageView
+          android:id="@+id/image1"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:layout_marginEnd="60dp"
+          android:layout_marginBottom="40dp"
+          android:src="@drawable/lab"
+          app:layout_constraintBottom_toTopOf="@+id/std_2_bt"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0" />
+
+      <ImageView
+          android:id="@+id/image2"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:layout_marginStart="72dp"
+          android:layout_marginBottom="40dp"
+          android:src="@drawable/clip"
+          app:layout_constraintBottom_toTopOf="@+id/std_3_bt"
+          app:layout_constraintEnd_toStartOf="@+id/std_2_bt"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent" />
+
+      <Button
+          android:id="@+id/std_2_bt"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+
+          android:layout_marginEnd="10dp"
+          android:layout_marginBottom="40dp"
+          android:background="@drawable/stds"
+          android:text="Standard 2"
+          android:textColor="#FFFFFF"
+          android:textSize="18sp"
+          app:layout_constraintBottom_toTopOf="@+id/image3"
+          app:layout_constraintEnd_toEndOf="parent" />
+
+      <Button
+          android:id="@+id/std_3_bt"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+
+          android:layout_marginStart="10dp"
+          android:layout_marginBottom="40dp"
+          android:background="@drawable/stds"
+          android:text="Standard 3"
+          android:textColor="#FFFFFF"
+          android:textSize="18sp"
+          app:layout_constraintBottom_toTopOf="@+id/image4"
+          app:layout_constraintEnd_toStartOf="@+id/image3"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent" />
+
+      <ImageView
+          android:id="@+id/image3"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:layout_marginEnd="60dp"
+          android:layout_marginBottom="40dp"
+          android:src="@drawable/colors"
+          app:layout_constraintBottom_toTopOf="@+id/std_4_bt"
+          app:layout_constraintEnd_toEndOf="parent" />
+
+      <ImageView
+          android:id="@+id/image4"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:layout_marginStart="72dp"
+          android:layout_marginBottom="40dp"
+          android:src="@drawable/lab"
+          app:layout_constraintBottom_toTopOf="@+id/std_5_bt"
+          app:layout_constraintEnd_toStartOf="@+id/std_4_bt"
+          app:layout_constraintHorizontal_bias="0.076"
+          app:layout_constraintStart_toStartOf="parent" />
+
+      <Button
+          android:id="@+id/std_4_bt"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+
+          android:layout_marginEnd="10dp"
+          android:layout_marginBottom="40dp"
+          android:background="@drawable/stds"
+          android:text="Standard 4"
+          android:textColor="#FFFFFF"
+          android:textSize="18sp"
+          app:layout_constraintBottom_toTopOf="@+id/image5"
+          app:layout_constraintEnd_toEndOf="parent" />
+
+      <Button
+          android:id="@+id/std_5_bt"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+
+          android:layout_marginStart="10dp"
+          android:layout_marginBottom="40dp"
+          android:background="@drawable/stds"
+          android:text="Standard 5"
+          android:textColor="#FFFFFF"
+          android:textSize="18sp"
+          app:layout_constraintBottom_toTopOf="@+id/image6"
+          app:layout_constraintEnd_toStartOf="@+id/image5"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent" />
+
+      <ImageView
+          android:id="@+id/image5"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:layout_marginEnd="60dp"
+          android:layout_marginBottom="40dp"
+          android:src="@drawable/clip"
+          app:layout_constraintBottom_toTopOf="@+id/std_6_bt"
+          app:layout_constraintEnd_toEndOf="parent" />
+
+      <ImageView
+          android:id="@+id/image6"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:layout_marginStart="72dp"
+          android:layout_marginBottom="40dp"
+          android:src="@drawable/colors"
+          app:layout_constraintBottom_toTopOf="@+id/std_7_bt"
+          app:layout_constraintEnd_toStartOf="@+id/std_6_bt"
+          app:layout_constraintHorizontal_bias="0.065"
+          app:layout_constraintStart_toStartOf="parent" />
+
+      <Button
+          android:id="@+id/std_6_bt"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+
+          android:layout_marginEnd="10dp"
+          android:layout_marginBottom="40dp"
+          android:background="@drawable/stds"
+          android:text="Standard 6"
+          android:textColor="#FFFFFF"
+          android:textSize="18sp"
+          app:layout_constraintBottom_toTopOf="@+id/image7"
+          app:layout_constraintEnd_toEndOf="parent" />
+
+      <Button
+          android:id="@+id/std_7_bt"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+
+          android:layout_marginStart="10dp"
+          android:layout_marginBottom="40dp"
+          android:background="@drawable/stds"
+          android:text="Standard 7"
+          android:textColor="#FFFFFF"
+          android:textSize="18sp"
+          app:layout_constraintBottom_toTopOf="@+id/image8"
+          app:layout_constraintEnd_toStartOf="@+id/image7"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent" />
+
+      <ImageView
+          android:id="@+id/image7"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:layout_marginEnd="60dp"
+          android:layout_marginBottom="40dp"
+
+          android:src="@drawable/lab"
+          app:layout_constraintBottom_toTopOf="@+id/std_8_bt"
+          app:layout_constraintEnd_toEndOf="parent" />
+
+      <ImageView
+          android:id="@+id/image8"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:layout_marginStart="72dp"
+          android:layout_marginBottom="40dp"
+          android:src="@drawable/clip"
+          app:layout_constraintBottom_toTopOf="@+id/std_9_bt"
+          app:layout_constraintEnd_toStartOf="@+id/std_8_bt"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent" />
+
+      <Button
+          android:id="@+id/std_8_bt"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+
+          android:layout_marginEnd="10dp"
+          android:layout_marginBottom="40dp"
+          android:background="@drawable/stds"
+          android:text="Standard 8"
+          android:textColor="#FFFFFF"
+          android:textSize="18sp"
+          app:layout_constraintBottom_toTopOf="@+id/image9"
+          app:layout_constraintEnd_toEndOf="parent" />
+
+      <Button
+          android:id="@+id/std_9_bt"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+
+          android:layout_marginStart="10dp"
+          android:layout_marginBottom="4dp"
+          android:background="@drawable/stds"
+          android:text="Standard 9"
+          android:textColor="#FFFFFF"
+          android:textSize="18sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toStartOf="@+id/image9"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent" />
+
+      <ImageView
+          android:id="@+id/image9"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:layout_marginEnd="60dp"
+          android:layout_marginBottom="5dp"
+          android:src="@drawable/colors"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+  </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "264325916029",
+    "project_id": "pr-bg2",
+    "storage_bucket": "pr-bg2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264325916029:android:f1602b747e746cea2d9814",
+        "android_client_info": {
+          "package_name": "com.example.pr_bg2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264325916029-rd9bu8rq4njfe541ir0elehepo83lfgv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATyVp84ZGWVpUI0Bu-D3VVwLCnINkkObI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264325916029-rd9bu8rq4njfe541ir0elehepo83lfgv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
